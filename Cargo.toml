@@ -1,0 +1,16 @@
+[package]
+name = "hyper-bench"
+version = "0.1.0"
+authors = ["Alexander Polyakov <apolyakov@beget.com>"]
+
+[dependencies]
+net2 = "0.2"
+futures = "0.1"
+pretty_env_logger = "0.1"
+log = "0.3.6"
+tokio-core = "0.1"
+scheduler = "0.1"
+
+[dependencies.hyper]
+git = "https://github.com/hyperium/hyper/"
+rev = "39a53fcd3364634125dafcf4d7a1d191241a7ff0"
